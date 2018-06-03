@@ -14,4 +14,3 @@ def print_like_group_day_schedule(schedule):
 
 def __description(i):
     print('{}-я Пара: Предмет {}, Преподаватель {}, Аудитория {}'.format(i[1], i[0], i[2], i[3]))
-#
