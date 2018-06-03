@@ -1,7 +1,7 @@
 import random as rm
 import itertools
 from src.generator import Generator
-#
+
 '''
                                 ******************** УСЛОВИЯ ********************
 

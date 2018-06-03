@@ -2,7 +2,7 @@ def read(input_file):
     with open(input_file, 'r') as input_file:
         input_ = filter(lambda x: x.isdecimal(), input_file.read().split())
     return tuple(map(int, input_))
-#
+
 
 def write(schedule, output_file='output.txt'):
     with open(output_file, 'w') as output_file:
