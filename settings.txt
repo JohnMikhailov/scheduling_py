@@ -1,0 +1,10 @@
+professors 20
+classes 105
+classrooms 100
+groups 7
+classes_in_each_group 15
+classes_per_day_max 3
+classes_each_day_max 8
+professor_can_take_per_day_min_classes_amount 1
+professor_can_take_per_day_max_classes_amount 6
+days_max 6

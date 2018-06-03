@@ -1,0 +1,3 @@
+scouts 3
+workers 15
+steps 1
