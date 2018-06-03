@@ -2,7 +2,7 @@ from src.bee import Bee
 from src.generator import Generator
 from src.intelligence import Engine
 from src import input_output
-
+#
 
 def __collect_data(bca_inputs='bee_colony_inputs.txt', generator_inputs='settings.txt'):
     settings = input_output.read(bca_inputs)

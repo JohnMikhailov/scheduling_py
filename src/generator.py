@@ -41,7 +41,7 @@ class Generator:
                 day_eval.append(tuple(pair_eval))
             self.evaluation_time[professor] = tuple(day_eval)
         # в результате получается так: evaluation_time[1][2][3] - оценка преподавателя 1 для третей пары во вторник
-
+#
     def generate_evaluation_place(self):
         for professor in self.professors:
             class_eval = []
