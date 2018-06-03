@@ -14,8 +14,8 @@ class Bee:
     def estimate(self):
         self.value = self.__engine.evaluation(self.schedule)
 
-    def __extract(self):  # модификация расписания
-        return self.__engine.mutate(self.schedule)
+    # def __extract(self):  # модификация расписания
+    #     return self.__engine.mutate(self.schedule)
 
     def is_valid(self):  # проверка расписания
         return self.__engine.is_valid(self.schedule)
